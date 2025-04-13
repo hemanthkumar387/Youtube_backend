@@ -28,7 +28,7 @@ app.use("/api/comments", commentRoutes);
 app.use("/api/channels", channelRoutes);
 
 
-mongoose.connect("mongodb+srv://hemanthkumar1:password@hemanth.xrqb1.mongodb.net/youtube");
+mongoose.connect("mongodb+srv://hemanthkumar1:Hemanth7873@hemanth.xrqb1.mongodb.net/youtube");
 
 const db = mongoose.connection;
 
